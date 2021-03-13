@@ -1,0 +1,88 @@
+/* Landing Section */
+#header .navbar                             {   background-color: transparent;}
+.logo_png                                   {   width:250px;margin: 30px;}
+#landing                                    {   background-image: url(../images/landing.jpg);height: 100%;margin-top:-220px;background-position: center;background-repeat: no-repeat;background-size: cover;padding: 20% 0% 10% 0%;}
+.navbar-light .navbar-nav .nav-link         {   color: #ffffff;font-size: 12px;font-family: Graphit-Regular;}
+.navbar-collapse                            {   margin-top: -80px;}
+.landingHeader                              {   color: #ffffff;font-size: 60px;font-family: Graphit-Bold;font-weight: bold;}
+.subtxtLanding                              {   color: #ffffff;font-size: 24px;font-family: Graphit-Light;margin: 30px 0px 60px 0px;}
+.navbar-nav                                 {   margin-left: auto;}
+#landing .btn  								{	padding: 16px;}
+
+/* Event Schedule Section */
+#eventSchedule                              {   background-image: url(../images/eventSchedule.jpg);height: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;padding: 0% 0% 10% 0%;}
+#eventSchedule .cardOrange                  {   background-image: url(../images/esOrange.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;padding: 80px;margin-top: -60px;}
+.header2                                    {   color: #ffffff;font-size: 36px;font-family: Graphit-Medium;}
+.paraTxt                                    {   color: #ffffff;font-size: 20px;font-family: Graphit-Light;}
+.dateTxtLine                                {   background: #ffffff;position: relative;margin-top: -17px;margin-left: 180px;height: 1px;z-index: 0;}
+.dateTxt                                    {   color: #ffffff;font-size: 24px;font-family: Graphit-Light;display:inline;padding-right:20px;}
+.cardYellow                                 {   background-image: url(../images/yellowBg.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;height: 400px;}
+.cardGreen                                  {   background-image: url(../images/greenBg.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;height: 500px;margin: 100px 0px 0px -100px;}
+.containerRelative                          {   position: relative;}
+.slider                                     {   height: 100%;            position: absolute;top: -550px;left: 0;}
+.headerES                                   {   color: #9a0fa7;font-size: 60px;font-family: Graphit-Bold;margin: 20px 0px 50px 0px;}
+.cardEsCenter                               {   padding: 20px 20px 40px 20px;background-image: url(../images/sliderImgCenter.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;    height: 100%;width: 100%;}
+.cardEsCenter .row                          {   padding:30px;}
+.cardEsLeft                                 {   background-image: url(../images/sliderImgLeft.png);background-position: center;background-repeat: no-repeat;background-size: cover;margin-top: 150px;height:200px;width: 100%;}
+.cardEsright                                {   background-image: url(../images/sliderImgRight.png);background-position: center;background-repeat: no-repeat;background-size: cover;margin-top: 150px;height:200px;width: 100%;}
+.prevNxt                                    {   color: #730d80;font-size: 26px;font-family: Graphit-light;margin: 8px 0px 0px 0px;}
+.numberCircle                               {   margin-bottom: 40px;width: 160px;height: 180px;padding: 8px;border: 2px solid #ffffff;text-align: center;color:#ffffff;float: right;padding: 30px 0px 0px 0px;}
+.numberCircle .date                         {   font-family: Graphit-Regular;font-size: 100px;line-height: 70px;padding: 30px 0px 0px 0px;}
+.numberCircle .month                        {   font-family: Graphit-Regular;font-size: 40px;line-height: 70px;}
+.cardEsCenter .dateTxtLine                  {   margin-left: 220px !important;}
+.containerRelative .row>* 					{	padding-right: 0px;padding-left: 0px;}
+
+
+/* Join Concert */
+#joinConcert                                {   background-image: url(../images/joinConcert.jpg);height: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;padding: 14% 0% 12% 0%;}
+#joinConcert .dateTxtLine                   {   margin-left: 220px;}
+
+/* Annual Event Section */
+#annualEvent                                {   background-image: url(../images/annualEvent.jpg);height: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;padding: 0% 0% 6% 0%;}
+#annualEvent .card                          {   height:700px;border-radius: 0px;margin: 60px 20px 20px 20px;}
+#annualEvent .dateTxt                       {   color: #000000;font-size: 24px;font-family: Graphit-Light;display:inline;padding-right:20px;}
+#annualEvent .dateTxtLine                   {   background: #000000;position: relative;margin-top: -17px;margin-left: 220px;height: 1px;z-index: 0;}
+#annualEvent .cardTop                       {   height:450px;padding:60px;}
+#annualEvent .header2                       {   color: #000000;font-size: 36px;font-family: Graphit-Medium;font-weight: bold;}
+#annualEvent .subtxtLanding                 {   color: #000000;font-size: 22px;font-family: Graphit-Light;margin: 20px 0px 20px 0px;}
+.imgAnnualCard1                             {   background-image: url(../images/cardImg1.png);height: 100%;}
+.imgAnnualCard2                             {   background-image: url(../images/cardImg2.png);height: 100%;}
+.imgAnnualCard3                             {   background-image: url(../images/cardImg3.png);height: 100%;}
+.imgAnnualCard4                             {   background-image: url(../images/cardImg4.png);height: 100%;}
+.imgAnnualCard5                             {   background-image: url(../images/cardImg5.png);height: 100%;}
+.imgAnnualCard6                             {   background-image: url(../images/cardImg6.png);height: 100%;}
+.backgroundPostitions                       {   background-position: center;background-repeat: no-repeat;background-size: cover;margin-top: -20px;}
+.dateTxtPagination                          {   letter-spacing: 24px;color: #ffffff;font-size: 24px;font-family: Graphit-Light;display:inline;padding-right:20px;}
+.dateTxtLinePagination                      {   background: #ffffff;position: relative;margin-top: -17px;margin-left: 180px;height: 1px;z-index: 0;}
+
+/* Footer Section */
+#footer                                     {   background-color: #461755;height: 100%;padding: 30px 0px 60px 0px;}
+#footer .logo_png                           {   width:200px;}
+#footer .subtxtLanding                      {   color: #ffffff;font-size: 20px;font-family: Graphit-Light;margin: 20px 0px 20px 0px;}
+.footerDesc                                 {   padding: 20px;margin-top: 120px;}
+#footer .input-group-text                   {   padding: 25px;border-radius: 0px !important;border: none !important;background-color: #f3943d;color: #461755;}
+#footer input                               {   border-radius: 0px !important;background-color: #7f34a8;border: none !important;color: #ffffff;}
+#footer  ::placeholder                      {   color: #ffffff;opacity: 1; /* Firefox */}
+#footer :-ms-input-placeholder              { 	/* Internet Explorer 10-11 */color: #ffffff;}
+#footer ::-ms-input-placeholder             { 	/* Microsoft Edge */color: #ffffff;}
+  /* footer social icons */
+#footer ul.social-network                   {   display: inline-flex;float: left;text-align: left;margin-top: 60px;padding: 0px;margin-bottom: 1rem;}
+#footer ul.social-network li                {   display: inline;margin: 0 5px;}
+#footer .social-network a.icoInsta:hover    {   background-color:#9a0fa7;}
+#footer .social-network a.icoFacebook:hover {   background-color:#3B5998;}
+#footer .social-network a.icoTwitter:hover  {   background-color:#33ccff;}
+#footer .social-network a.icoYoutube:hover  {   background-color:#9b280f;}
+#footer .social-network a.icoBe:hover       {   background-color:#0590B8;}
+#footer .social-network a.icoLinkedin:hover {   background-color:#007bb7;}
+#footer a.socialIcon:hover,
+.socialHoverClass                           {   color:#44BCDD;}
+#footer .social-circle li a                 {   display:inline-block;position:relative;margin:0 auto 0 auto;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;text-align:center;width: 40px;height: 40px;font-size:20px;}
+#footer .social-circle li i                 {   margin:0;line-height:40px;text-align: center;}
+#footer .social-circle li a:hover i,
+#footer .triggeredHover                     {   -moz-transform: rotate(360deg);-webkit-transform: rotate(360deg);-ms--transform: rotate(360deg);transform: rotate(360deg);-webkit-transition: all 0.2s;-moz-transition: all 0.2s;-o-transition: all 0.2s;-ms-transition: all 0.2s;transition: all 0.2s;}
+#footer .social-circle i                    {   color: #fff;-webkit-transition: all 0.8s;-moz-transition: all 0.8s;-o-transition: all 0.8s;-ms-transition: all 0.8s;transition: all 0.8s;}
+#footer .social-circle a                    {   border: 2px solid #ffffff;  }
+
+
+
+

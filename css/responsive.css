@@ -1,0 +1,94 @@
+/* Mobile View */
+@media only screen and (max-width: 768px)                       {
+    .containerRelative                                          {   position: initial;}
+    .slider                                                     {   position: unset;}
+    .cardYellow                                                 {   display:none;}
+    .cardGreen                                                  {   display:none;}
+    .cardOrange                                                 {   padding:20px !important;}
+    .headerES                                                   {   font-size: 40px;margin: 40px 0px 0px 0px;}
+    #joinConcert                                                {   padding: 100px 30px 100px 30px;}
+    #annualEvent .cardTop                                       {   padding: 20px;}
+    .backgroundPostitions                                       {   margin-top: 20px;}
+    .cardEsLeft                                                 {   margin-top: 40px;}
+    .cardEsright                                                {   margin-top: 40px;}
+    #landing                                                    {   padding: 80px 0px 100px 0px !important;}
+    .landingHeader                                              {   font-size: 40px;margin-top: 40px;}
+    .subtxtLanding                                              {   font-size:18px;}
+    .mblCntr                                                    {   text-align: center;}
+    .header2                                                    {   font-size: 26px;}
+    .padRight                                                   {   padding-left: 20px !important;}
+    .padLeft                                                    {   padding-right: 20px !important;}
+    /* #annualEvent .card {margin: 60px 20px 100px 20px;} */
+}
+
+/* Tablet and Medium */
+@media screen and (min-width: 768px) and (max-width: 992px)     {
+    .landingHeader                                              {   font-size: 50px;margin-top: 100px;}
+    .subtxtLanding                                              {   font-size:22px;}
+    .headerES                                                   {   font-size: 50px;}
+    #joinConcert                                                {   padding: 150px 0px 80px 0px;}
+    .mobleMt                                                    {   margin-top: 40px !important;}
+}
+
+@media only screen and (max-width: 992px)                       {
+    .navbar-nav                                                 {   margin-top: 100px;}
+    .navbar-light .navbar-toggler                               {   z-index: 999;}     
+    .logo_png                                                   {   width: 100px;margin: 0px;}
+    #landing                                                    {   margin-top: -72px;padding: 0% 0% 10% 0%;}
+    .footerDesc                                                 {   margin-top: 20px;}
+    .mobileMt60                                                 {   margin-top: 60px !important;} 
+    .navbar-nav a.active                                        {   width: 150px;}
+    .navbar-nav a:hover                                         {   width: 150px;}
+    .fa-bars                                                    {   color: #ffffff;;}
+    .navbar-light .navbar-toggler,.navbar-toggler:visited
+    .navbar-toggler:active,.navbar-toggler:focus                {   border-radius: 0px;border-color: #ffffff;}
+    #annualEvent .header2                                       {   font-size: 30px;}
+    #annualEvent .subtxtLanding                                 {   font-size: 18px;}
+    #annualEvent .dateTxt                                       {   font-size: 20px;}
+    #header button:focus                                        {   color: #ffffff;}
+    #footer .subtxtLanding                                      {   font-size: 18px;}
+    #landing {background-image: url(../images/landing_mobile.png);}
+}
+
+/* Medium and Large View */
+@media only screen and (min-width: 992px)                       {
+    #annualEvent .card                                          {   border-radius: 0px;}
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px)    {
+    .navbar-nav                                                 {   margin-top: 100px;}
+    .navbar-light .navbar-toggler                               {   z-index: 999;}     
+    .logo_png                                                   {   width: 100px;margin: 0px;}
+    #landing                                                    {   margin-top: -72px;padding: 150px 0px 100px 0px;}
+    .footerDesc                                                 {   margin-top: 20px;}
+    .mobileMt60                                                 {   margin-top: -60px !important;}
+    .navbar-nav a:hover                                         {   width: 150px;}
+    .fa-bars                                                    {   color: #ffffff;;}
+    .navbar-light .navbar-toggler,.navbar-toggler:visited
+    .navbar-toggler:active,.navbar-toggler:focus                {   border-radius: 0px;border-color: #ffffff;}
+    #annualEvent .header2                                       {   font-size: 30px;}
+    #annualEvent .subtxtLanding                                 {   font-size: 18px;}
+    #annualEvent .dateTxt                                       {   font-size: 20px;}
+    #header button:focus                                        {   color: #ffffff;}
+    #footer .subtxtLanding                                      {   font-size: 18px;}
+}
+
+
+@media screen and (min-width: 1201px) and (max-width: 1310px)   {
+    .navbar-expand-xl .navbar-nav .nav-link                     {   padding-right: 8px !important;padding-left: 8px !important;}
+    .navbar-nav                                                 {   margin-left: auto;margin-top: 40px;}
+    .logo_png                                                   {   width: 180px;margin: 30px;}
+    .navbar-light .navbar-nav .nav-link                         {   font-size: 11px;    }
+    #footer ul.social-network li                                {   display: inline;margin: 2px;}
+}
+
+
+@media only screen and (min-width: 1200px)                      {
+    #annualEvent .card                                          {   height: 750px !important;}
+    #annualEvent .cardTop                                       {   height: 600px !important;padding: 60px;}
+}
+
+
+
+
