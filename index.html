@@ -5,10 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#201633">
+    <script src="libs/jquery/dist/jquery.min.js"></script>
     <title>Rajeshkanna T</title>
 </head>
 
 <body>
-   <iframe width="1920" height="1080" src="https://xd.adobe.com/embed/8a635401-572e-4b70-8431-b748643339e6-df30/?fullscreen" frameborder="0" allowfullscreen></iframe>
+   <iframe id="adobeXd" src="https://xd.adobe.com/embed/8a635401-572e-4b70-8431-b748643339e6-df30/?fullscreen" frameborder="0" allowfullscreen></iframe>
 </body>
+<script>
+	$( document ).ready(function() {
+   var frameWidth = $(window).width();
+   var frameHeight = $(window).height();
+   $("#adobeXd").css("width", frameWidth);
+$("#adobeXd").css("height", frameHeight);
+});
+</script>
 </html>
